@@ -1,0 +1,120 @@
+.login-responsive-container {
+  padding: 0;
+  background-color: #e5e5e5;
+  min-height: 100vh;
+  font-family: 'Roboto';
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.insta-landing-img {
+  display: none;
+}
+
+.login-form {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.insta-logo-container {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-insta-logo-img {
+  width: 78px;
+}
+
+.login-logo-heading {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #262626;
+}
+
+.login-input-label {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #262626;
+  margin-bottom: 8px;
+  margin-top: 24px;
+}
+
+.login-card-input {
+  width: 312px;
+  background: #eeeeee;
+  border-radius: 2px;
+  border: none;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #262626;
+  padding: 8px 16px 8px 16px;
+}
+
+.login-btn {
+  width: 312px;
+  height: 40px;
+  background: #4094ef;
+  border-radius: 8px;
+  border: none;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 8px;
+}
+
+.login-err-msg {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ef4444;
+}
+
+@media screen and (min-width: 768px) {
+  .login-responsive-container {
+    flex-direction: row;
+  }
+
+  .insta-landing-img {
+    display: block;
+    width: 40%;
+    margin-right: 82px;
+  }
+
+  .login-form {
+    width: auto;
+    padding: 60px 48px 48px 48px;
+    background: #fefeff;
+    box-shadow: 0 8px 40px rgba(7, 7, 7, 0.5);
+    border-radius: 8px;
+  }
+
+  .login-card-input {
+    width: 360px;
+  }
+
+  .login-btn {
+    width: 360px;
+    margin-top: 16px;
+  }
+
+  .login-insta-logo-img {
+    width: 82px;
+  }
+}

@@ -1,0 +1,101 @@
+.post-card-container {
+  margin: 16px 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  border: none;
+  font-family: Roboto;
+  font-style: normal;
+}
+
+.post-card-profile-row {
+  display: flex;
+  align-items: center;
+}
+
+.profile-pic-bgcontainer {
+  background: linear-gradient(to left, #e20337, #c60188, #7700c3);
+  border-radius: 50%;
+  margin: 14px 16px 14px 24px;
+  display: flex;
+}
+
+.post-card-profile-pic {
+  height: 28px;
+  width: 28px;
+  margin: 2px;
+  border-radius: 100%;
+  border: 3px solid white;
+}
+
+.text-bold {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  align-items: center;
+  color: #262626;
+  margin-right: 4px;
+}
+
+.post-card-image {
+  height: 614px;
+  object-fit: cover;
+  margin-bottom: 0;
+}
+
+.post-card-text-container {
+  margin: 14px 16px 14px 24px;
+}
+
+.like-comment-share-row {
+  width: 100%;
+  max-width: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.transparent-btn {
+  background-color: transparent;
+  padding: 0;
+  border: 0;
+  outline: none;
+}
+
+.post-card-text {
+  display: flex;
+  align-items: center;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #262626;
+}
+
+.post-card-gray-text {
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 16px;
+  color: #989898;
+}
+
+@media screen and (min-width: 768px) {
+  .post-card-container {
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+    background: #ffffff;
+  }
+
+  .post-card-text {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .post-card-gray-text {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
