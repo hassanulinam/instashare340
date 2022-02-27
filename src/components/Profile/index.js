@@ -171,5 +171,3 @@ class Profile extends Component {
 }
 
 export default Profile
-
-// the same code is used in MyProfile component
